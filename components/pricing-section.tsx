@@ -15,8 +15,8 @@ const features = [
 
 export function PricingSection() {
   return (
-    <section id="pricing" className="py-20 md:py-32">
-      <div className="container">
+    <section id="pricing" className="py-20 md:py-32 bg-muted/30">
+      <div className="container max-w-7xl mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Simple, transparent pricing</h2>
           <p className="text-lg text-muted-foreground text-pretty">
@@ -25,7 +25,7 @@ export function PricingSection() {
         </div>
 
         <div className="max-w-lg mx-auto">
-          <div className="relative p-8 rounded-2xl border-2 border-primary bg-card shadow-lg">
+          <div className="relative p-8 md:p-10 rounded-2xl border-2 border-primary bg-card shadow-lg">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
               <span className="px-4 py-1 bg-primary text-primary-foreground text-sm font-semibold rounded-full">
                 Pay As You Go
@@ -50,7 +50,7 @@ export function PricingSection() {
             </ul>
 
             <Button size="lg" className="w-full" asChild>
-              <Link href="/dashboard">Start Free Trial</Link>
+              <Link href="/auth/sign-up">Start Free Trial</Link>
             </Button>
           </div>
         </div>

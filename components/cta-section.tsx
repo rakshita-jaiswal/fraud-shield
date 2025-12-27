@@ -5,16 +5,16 @@ import Link from "next/link"
 export function CTASection() {
   return (
     <section className="py-20 md:py-32 bg-primary text-primary-foreground">
-      <div className="container">
+      <div className="container max-w-7xl mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance">Ready to protect your business?</h2>
-          <p className="text-lg mb-8 text-primary-foreground/90 text-pretty">
+          <p className="text-lg md:text-xl mb-8 text-primary-foreground/90 text-pretty leading-relaxed">
             Join hundreds of businesses using FraudShield SMB to fight fraud and protect revenue. Get started in
             minutes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" variant="secondary" asChild className="gap-2">
-              <Link href="/dashboard">
+              <Link href="/auth/sign-up">
                 Start Free Trial
                 <ArrowRight className="size-4" />
               </Link>
