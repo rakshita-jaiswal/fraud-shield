@@ -72,7 +72,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} FraudShield SMB. All rights reserved.
+            © {new Date().getFullYear()} FraudShield SMB. All rights reserved. Built by Rakshita Jaiswal.
           </p>
         </div>
       </div>
